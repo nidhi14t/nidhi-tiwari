@@ -42,7 +42,21 @@
   max-width: 90%;
   height: auto;
 }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.skill-card {
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
 
+.skill-card:hover {
+  transform: translateY(-4px);
+}
 /* Media Query */
 
 @media (max-width: 1456px) {

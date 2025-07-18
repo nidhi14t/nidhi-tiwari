@@ -4,6 +4,28 @@
   gap: 1rem 1rem;
 }
 
+.experience-cards-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 1rem;
+
+  /* Responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Optional: tweak layout breakpoints */
+@media (min-width: 768px) {
+  .experience-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .experience-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .experience-heading {
   font-size: 56px;
   font-weight: 400;

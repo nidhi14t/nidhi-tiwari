@@ -138,7 +138,7 @@ const educationInfo = {
       duration: "September 2021 - August 2023",
       descBullets: [
         "Graduated with a GPA of 3.8/4.0",
-        "Completed coursework in Advanced Software Engineering, Cloud Computing, and Machine Learning",
+        "Completed coursework in Advanced Software Engineering, Cloud Computing, and Data Science",
         "Worked on various projects involving full-stack development and cloud deployment"
       ]
     }
@@ -151,16 +151,48 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design" //Insert stack or technology you have experience in
+      // progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "90%"
+      Stack: "JavaScript" //Insert stack or technology you have experience in
+      // progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      Stack: "NodeJS"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "ExpressJS"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "React"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "Typescript"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "Vite, Webpack, and Parcel"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "AI Integrations and AI agents"
+      // progressPercentage: "90%"
+    },
+    {
+      Stack: "Programming"
+      // progressPercentage: "80%"
+    },
+    {
+      Stack: "Cloud" //Insert stack or technology you have experience in
+      // progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Google Cloud Platform (GCP)" //Insert stack or technology you have experience in
+      // progressPercentage: "90%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -187,7 +219,7 @@ const workExperiences = {
     {
       role: "Software Engineer Research Coop",
       company: "Philips, MA, USA",
-      companylogo: require("./assets/images/philips-new-logo.svg"),
+      companylogo: require("./assets/images/philips-new-logo-.png"),
       date: "May 2022 – Dec 2022",
       desc: "Worked on integrating data from multiple healthcare repositories using FHIR and HL7 protocols. Developed a web application to visualize and analyze patient data, improving data accessibility and insights for healthcare professionals.",
       descBullets: [
@@ -201,6 +233,30 @@ const workExperiences = {
       company: "Persistent Systems, Bangalore, India",
       companylogo: require("./assets/images/persistent-systems-logo.png"),
       date: "Aug 2020 - June 2021",
+      desc: "Led frontend development for complex workflows, mentoring devs and boosting product performance by 40% through clean architecture, smart caching, and API optimization.",
+      descBullets: [
+        "Designed and implemented user-friendly interfaces using React",
+        "Optimized application performance through code splitting and lazy loading",
+        "Collaborated with backend teams to define API contracts and improve data flow"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Betatest Solutions, Bangalore, India",
+      companylogo: require("./assets/images/Betatest-Solutions-logo.jpg"),
+      date: "Aug 2018 - July 2020",
+      desc: "Led frontend development for complex workflows, mentoring devs and boosting product performance by 40% through clean architecture, smart caching, and API optimization.",
+      descBullets: [
+        "Designed and implemented user-friendly interfaces using React",
+        "Optimized application performance through code splitting and lazy loading",
+        "Collaborated with backend teams to define API contracts and improve data flow"
+      ]
+    },
+    {
+      role: "Application Developer ",
+      company: "IBM, Bangalore, India",
+      companylogo: require("./assets/images/IBM-logo.jpeg"),
+      date: "Jan 2016 - Aug 2018",
       desc: "Led frontend development for complex workflows, mentoring devs and boosting product performance by 40% through clean architecture, smart caching, and API optimization.",
       descBullets: [
         "Designed and implemented user-friendly interfaces using React",
@@ -310,7 +366,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: falses // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
